@@ -33,5 +33,9 @@ var populateList = function(brewdogBeers, ul){
     ul.appendChild(ingredients);
   })
 }
+var ingredientsList = [];
+  brewdogBeers.forEach(function(beer){
+    beer.ingredients.
+  })
 
 window.addEventListener('load', app);
